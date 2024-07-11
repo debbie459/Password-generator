@@ -1,0 +1,90 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+body{
+    background-color: #e4edf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Karla", sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #ECFDF5;
+    height : 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#generate_text{
+    font-style: bolder;
+    font-size: 35px;
+}
+
+#random_text{
+    font-style: bolder;
+    font-size: 35px;
+    color: #10B981;
+    letter-spacing: -0.2px; 
+    margin-bottom: 10px;
+}
+
+.container p{
+    font-size: 15px;
+    color: #7e8998;
+}
+
+.top-part button{
+   background-color: #10B981;
+}
+
+.bottom-part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+#generate-button{
+    width: 60%;
+    padding: 10px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.password-buttons{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+
+#button-1{
+    width: 50%;
+    padding: 7px;
+    color: #10B981;
+    background-color: rgb(27, 35, 50,0.95);
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+#button-2{
+    width: 45%;
+    margin-left: 40px;
+    padding: 7px;
+    color: #10B981;
+    background-color: rgb(27, 35, 50,0.95);
+    border: none;
+    border-radius: 5px;
+
+}
